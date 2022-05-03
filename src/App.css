@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 900;
+   
+    
+}
+.navbar-head{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 50px;
+    height: 150px;
+    padding: 0 50px;
+}
+
+.btn{
+   all: unset;
+   border: 1px solid black ;
+   border-radius: 5px;
+   padding: 5px;
+}
+
+.navbar-head h2{
+  margin-right: auto;
+  
+}
+
+.navbar-head a{
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: 500;
+ 
+}
+
+.App{
+padding: 5px 10px;
+max-width: 700px;
+margin:0 auto ;
+}
+.body{
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.body p{
+  padding: 20px;
+  border: 1px solid burlywood;
+  width: 300px;
+  border-radius: 20px;
+  margin: 5px 0;
+} 
+
