@@ -10,7 +10,7 @@ class ToggleTheme extends Component {
                 const {isLightTheme ,light ,dark} = themeContext
                 const theme = isLightTheme ?light : dark 
                 return (
-                    <button onClick={themeToggler} style={{background:theme.bg}} >Click Me!!</button>
+                    <button onClick={themeToggler} style={{background:theme.bg}}>Toggle Theme!!</button>
                     ) 
             }}
         </ThemeContext.Consumer>
